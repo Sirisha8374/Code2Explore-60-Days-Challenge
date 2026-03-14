@@ -1,0 +1,98 @@
+test_cases4.txt
+
+Testcase 1
+----------
+
+Enter number of activity scores: 8
+Enter score 1: 110
+Enter score 2: 78
+Enter score 3: -5
+Enter score 4: 82
+Enter score 5: 12
+Enter score 6: 8
+Enter score 7: 120
+Enter score 8: 48
+Original Data :  [110, 78, -5, 82, 12, 8, 120, 48]
+
+Before personalized filtering: 
+Low Risk:  [12, 8]
+Medium Risk:  [48]
+High Risk:  [78, 82]
+Critical Risk:  [110, 120]
+
+Enter your name: Sirisha
+Name:  Sirisha
+After personalized filtering: 
+Low Risk:  [12, 8]
+Medium Risk:  [48]
+High Risk:  [78, 82]
+Critical Risk:  []
+Final Report: 
+Total Valid Entries:  7
+Ignored Entries:  1
+Removed due to Personalization:  2
+
+
+
+
+Testcase 2
+----------
+
+Enter number of activity scores: 10
+Enter score 1: 180
+Enter score 2: -7
+Enter score 3: 23
+Enter score 4: 46
+Enter score 5: 84|
+Enter score 6: 3
+Enter score 7: 91
+Enter score 8: 109
+Enter score 9: 55
+Enter score 10: 74
+Original Data :  [180, -7, 23, 46, 84, 3, 91, 109, 55, 74]
+Before personalized filtering: 
+Low Risk:  [23, 3]
+Medium Risk:  [46, 55]
+High Risk:  [84, 91, 74]
+Critical Risk:  [180, 109]
+Enter your name: ramu
+Name:  ramu
+After personalized filtering: 
+Low Risk:  []
+Medium Risk:  [46, 55]
+High Risk:  [84, 91, 74]
+Critical Risk:  [180, 109]
+Final Report: 
+Total Valid Entries:  9
+Ignored Entries:  1
+Removed due to Personalization:  2
+
+
+
+Testcase 3
+----------
+
+Enter number of activity scores: 6
+Enter score 1: -4
+Enter score 2: 58
+Enter score 3: -39
+Enter score 4: 190
+Enter score 5: 78
+Enter score 6: 22
+Original Data :  [-4, 58, -39, 190, 78, 22]
+Before personalized filtering: 
+Low Risk:  [22]
+Medium Risk:  [58]
+High Risk:  [78]
+Critical Risk:  [190]
+Enter your name: alex
+Name:  alex
+After personalized filtering: 
+Low Risk:  []
+Medium Risk:  [58]
+High Risk:  [78]
+Critical Risk:  [190]
+Final Report: 
+Total Valid Entries:  4
+Ignored Entries:  2
+Removed due to Personalization:  1

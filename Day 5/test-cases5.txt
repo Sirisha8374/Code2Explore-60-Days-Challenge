@@ -1,0 +1,94 @@
+Testcase 1
+----------
+
+Enter number of requests: 7
+Enter request value: 10
+Enter request value: 25
+Enter request value: 60
+Enter request value: -3
+Enter request value: 0
+Enter request value: 45
+Enter request value: 80
+Original Data:  [10, 25, 60, -3, 0, 45, 80]
+
+Categorization Before personalization: 
+Low Demand:  [10]
+Moderate Demand:  [25, 45]
+High Demand:  [60, 80]
+Invalid Requests:  [-3]
+
+Enter last 5 digits of your registration number: 11535
+Last 5 digits of registration number is 11535
+Personalized Logic Index:  0
+
+After personalization: 
+Low Demand:  []
+Moderate Demand:  [25, 45]
+High Demand:  [60, 80]
+Invalid Requests:  [-3]
+
+Final Report:
+Total valid requests:  6
+Removed Count:  1
+
+
+
+Testcase 2
+----------
+
+Enter number of requests: 3
+Enter request value: 5
+Enter request value: 10
+Enter request value: 15
+Original Data:  [5, 10, 15]
+
+Categorization Before personalization: 
+Low Demand:  [5, 10, 15]
+Moderate Demand:  []
+High Demand:  []
+Invalid Requests:  []
+
+Enter last 5 digits of your registration number: 22222
+Last 5 digits of registration number is 22222
+Personalized Logic Index:  1
+
+After personalization: 
+Low Demand:  [5, 10, 15]
+Moderate Demand:  []
+High Demand:  []
+Invalid Requests:  []
+
+Final Report:
+Total valid requests:  3
+Removed Count:  0
+
+
+
+Testcase 3
+----------
+
+Enter number of requests: 3
+Enter request value: 60
+Enter request value: 70
+Enter request value: 90
+Original Data:  [60, 70, 90]
+
+Categorization Before personalization: 
+Low Demand:  []
+Moderate Demand:  []
+High Demand:  [60, 70, 90]
+Invalid Requests:  []
+
+Enter last 5 digits of your registration number: 99999
+Last 5 digits of registration number is 99999
+Personalized Logic Index:  0
+
+After personalization: 
+Low Demand:  []
+Moderate Demand:  []
+High Demand:  [60, 70, 90]
+Invalid Requests:  []
+
+Final Report:
+Total valid requests:  3
+Removed Count:  0
