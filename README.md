@@ -20,11 +20,11 @@ I update this repository **daily** by adding the solution for the new challenge 
 
 | Day | Challenge Title | Description | Solution |
 |-----|-----------------|-------------|----------|
-| Day 01 | User Profile Validation System | Build a validation system that verifies full name, email, mobile number, and age based on strict conditions to determine if a user profile is valid. | [Challenge1.py](Day-01/Challenge1.py) |
-| Day 02 | University Smart Registration System | Validate student registration details including Student ID format, university email, password rules, and referral code before approving the account. | [Challenge2.py](Day-02/Challenge2.py) |
-| Day 03 | Student Result Analyzer | Analyze multiple student marks, categorize performance levels, apply personalized bonus logic based on name length, and generate a final performance summary. | [Challenge3.py](Day-03/Challenge3.py) |
-| Day 04 | Student Login Risk Analyzer | Process activity scores, categorize them into risk levels (low, medium, high, critical), apply personalized filtering based on name length, and generate a security report. | [Challenge4.py](Day-04/Challenge4.py) |
-| Day 05 | Emergency Resource Request Analyzer | Categorize emergency resource requests into demand levels, apply personalized filtering using a Personalized Logic Index (PLI) derived from registration number digits, and generate a dispatch report. | [Challenge5.py](Day-05/Challenge5.py) |
+| Day 01 | User Profile Validation System | Build a validation system that verifies full name, email, mobile number, and age based on strict conditions to determine if a user profile is valid. | [Challenge1.py](Day 1/Challenge1.py) |
+| Day 02 | University Smart Registration System | Validate student registration details including Student ID format, university email, password rules, and referral code before approving the account. | [Challenge2.py](Day 2/Challenge2.py) |
+| Day 03 | Student Result Analyzer | Analyze multiple student marks, categorize performance levels, apply personalized bonus logic based on name length, and generate a final performance summary. | [Challenge3.py](Day 3/Challenge3.py) |
+| Day 04 | Student Login Risk Analyzer | Process activity scores, categorize them into risk levels (low, medium, high, critical), apply personalized filtering based on name length, and generate a security report. | [Challenge4.py](Day 4/Challenge4.py) |
+| Day 05 | Emergency Resource Request Analyzer | Categorize emergency resource requests into demand levels, apply personalized filtering using a Personalized Logic Index (PLI) derived from registration number digits, and generate a dispatch report. | [Challenge5.py](Day 5/Challenge5.py) |
 ---
 
 # 🧠 Concepts Practiced
