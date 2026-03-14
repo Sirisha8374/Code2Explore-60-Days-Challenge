@@ -20,11 +20,11 @@ I update this repository **daily** by adding the solution for the new challenge 
 
 | Day    | Challenge Title                      | Description                                                                                                                                                                                             | Solution |
 | ------ | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Day 01 | User Profile Validation System       | Build a validation system that verifies full name, email, mobile number, and age based on strict conditions to determine if a user profile is valid.                                                    | Day-01   |
-| Day 02 | University Smart Registration System | Validate student registration details including Student ID format, university email, password rules, and referral code before approving the account.                                                    | Day-02   |
-| Day 03 | Student Result Analyzer              | Analyze multiple student marks, categorize performance levels, apply personalized bonus logic based on name length, and generate a final performance summary.                                           | Day-03   |
-| Day 04 | Student Login Risk Analyzer          | Process activity scores, categorize them into risk levels (low, medium, high, critical), apply personalized filtering based on name length, and generate a security report.                             | Day-04   |
-| Day 05 | Emergency Resource Request Analyzer  | Categorize emergency resource requests into demand levels, apply personalized filtering using a Personalized Logic Index (PLI) derived from registration number digits, and generate a dispatch report. | Day-05   |
+| Day 01 | User Profile Validation System       | Build a validation system that verifies full name, email, mobile number, and age based on strict conditions to determine if a user profile is valid.                                                    | Challenge1.py  |
+| Day 02 | University Smart Registration System | Validate student registration details including Student ID format, university email, password rules, and referral code before approving the account.                                                    | Challenge2.py  |
+| Day 03 | Student Result Analyzer              | Analyze multiple student marks, categorize performance levels, apply personalized bonus logic based on name length, and generate a final performance summary.                                           | Challenge3.py  |
+| Day 04 | Student Login Risk Analyzer          | Process activity scores, categorize them into risk levels (low, medium, high, critical), apply personalized filtering based on name length, and generate a security report.                             | Challenge4.py  |
+| Day 05 | Emergency Resource Request Analyzer  | Categorize emergency resource requests into demand levels, apply personalized filtering using a Personalized Logic Index (PLI) derived from registration number digits, and generate a dispatch report. | Challenge6.py  |
 
 ---
 
@@ -84,22 +84,6 @@ Through this challenge I am continuously improving:
 
 ---
 
-# 🔄 Repository Updates
-
-This README will be updated **daily** as new challenges are completed.
-
-Future structure will expand like this:
-
-```
-Day-06
-Day-07
-Day-08
-...
-Day-60
-```
-
----
-
 # 💡 Goal of the Challenge
 
 The primary goal of this challenge is to:
@@ -109,6 +93,4 @@ The primary goal of this challenge is to:
 * Improve logical thinking
 * Create a well-structured public GitHub portfolio
 
----
 
-⭐ If you find this repository helpful, feel free to explore the solutions.
