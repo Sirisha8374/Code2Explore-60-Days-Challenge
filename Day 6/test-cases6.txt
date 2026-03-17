@@ -1,0 +1,49 @@
+Testcase 1
+----------
+
+Enter number of transactions made in a day: 4
+Enter transaction amount 1: -10
+Enter transaction amount 2: 0
+Enter transaction amount 3: -5
+Enter transaction amount 4: -100
+Categorized transactions:  {'normal': [], 'large': [], 'highRisk': [], 'invalid': [-10, 0, -5, -100]}
+Summary:
+Total transaction value:  0
+Total number of transactions:  4
+Final Risk Level:  Low Risk
+
+
+
+Testcase 2
+----------
+
+Enter number of transactions made in a day: 5
+Enter transaction amount 1: 1000
+Enter transaction amount 2: 1000
+Enter transaction amount 3: 1000
+Enter transaction amount 4: 1000
+Enter transaction amount 5: 1001
+Categorized transactions:  {'normal': [], 'large': [1000, 1000, 1000, 1000, 1001], 'highRisk': [], 'invalid': []}
+Summary:
+Total transaction value:  5001
+Total number of transactions:  5
+Final Risk Level:  Moderate Risk
+
+
+
+Testcase 3
+----------
+
+Enter number of transactions made in a day: 7
+Enter transaction amount 1: 100
+Enter transaction amount 2: 700
+Enter transaction amount 3: 2500
+Enter transaction amount 4: -50
+Enter transaction amount 5: 300
+Enter transaction amount 6: 1800
+Enter transaction amount 7: 4000
+Categorized transactions:  {'normal': [100, 300], 'large': [700, 1800], 'highRisk': [2500, 4000], 'invalid': [-50]}
+Summary:
+Total transaction value:  9400
+Total number of transactions:  7
+Final Risk Level:  High Risk
