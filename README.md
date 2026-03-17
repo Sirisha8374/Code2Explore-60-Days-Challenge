@@ -90,13 +90,144 @@ Through this challenge I am continuously improving:
 
 ---
 
-# 💡 Goal of the Challenge
+# 🧠 Logic Used in Each Challenge
 
-The primary goal of this challenge is to:
+### 🔹 Day 01 – User Profile Validation System
 
-* Build strong Python fundamentals
-* Practice consistent coding
-* Improve logical thinking
-* Create a well-structured public GitHub portfolio
+* Collected user inputs: name, email, mobile number, and age
+* Validated name:
+
+  * Contains at least one space (minimum two words)
+  * Does not start or end with a space
+* Validated email:
+
+  * Contains `@` and `.`
+  * `@` is not the first character
+* Validated mobile number:
+
+  * Exactly 10 digits
+  * Contains only numbers using `isdigit()`
+  * Does not start with `0`
+* Validated age:
+
+  * Must be between 18 and 60
+* Final result:
+
+  * If all validations pass → **VALID**
+  * Else → **INVALID**
+
+---
+
+### 🔹 Day 02 – University Smart Registration System
+
+* Took inputs: student ID, email, password, referral code
+* Validated student ID:
+
+  * Starts with `CSE`
+  * 4th character is `-`
+  * Last 3 characters are digits
+* Validated email:
+
+  * Contains `@` and `.`
+  * `@` not at start/end
+  * Ends with `.edu`
+* Validated password:
+
+  * Minimum 8 characters
+  * First character uppercase
+  * Contains at least one digit
+* Validated referral code:
+
+  * Starts with `REF`
+  * Followed by 2 digits
+  * Ends with `@`
+* Final result:
+
+  * All conditions true → **APPROVED**
+  * Else → **REJECTED**
+
+---
+
+### 🔹 Day 03 – Student Result Analyzer
+
+* Took multiple student marks as input
+* Categorized marks:
+
+  * 90–100 → Excellent
+  * 75–89 → Very Good
+  * 60–74 → Good
+  * 40–59 → Average
+  * 0–39 → Fail
+  * Others → Invalid
+* Applied personalization:
+
+  * Based on name length
+  * If marks fall in `(length × 10)` range → add bonus (+5)
+* Generated summary:
+
+  * Total valid students
+  * Total failed students
+
+---
+
+### 🔹 Day 04 – Student Login Risk Analyzer
+
+* Stored activity scores in a list
+* Ignored negative values (invalid entries)
+* Categorized valid scores:
+
+  * 0–30 → Low
+  * 31–60 → Medium
+  * 61–100 → High
+  * > 100 → Critical
+* Applied personalization:
+
+  * Even name length → remove low-risk scores
+  * Odd name length → remove critical scores
+* Final output:
+
+  * Filtered categories
+  * Count of valid, ignored, and removed entries
+
+---
+
+### 🔹 Day 05 – Emergency Resource Request Analyzer
+
+* Stored resource requests in a list
+* Categorized requests:
+
+  * Low / Moderate / High / Invalid
+* Counted valid requests (≥ 0)
+* Applied personalization:
+
+  * Extract last 5 digits of registration number
+  * Calculate **PLI (Personalized Logic Index)**
+  * Remove one category based on PLI
+* Final output:
+
+  * Filtered dispatch report
+  * Removed count
+
+---
+
+### 🔹 Day 06 – Smart Transaction Risk Detector
+
+* Took number of transactions and stored amounts in a list
+* Categorized transactions:
+
+  * Normal / Large / High-risk / Invalid
+* Used list comprehension to:
+
+  * Filter valid transactions
+  * Calculate total amount and count
+* Applied pattern detection:
+
+  * Frequent transactions (>5)
+  * High total spending (>5000)
+  * ≥3 high-risk transactions
+* Final logic:
+
+  * Combined all conditions to determine overall risk level
+
 
 
