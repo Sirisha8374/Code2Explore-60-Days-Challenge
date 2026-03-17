@@ -10,7 +10,7 @@ Each day focuses on **real-world inspired problems**, input validation, logical 
 
 ## 📊 Progress
 
-**Completed:** 5 / 60 Days
+**Completed:** 6 / 60 Days
 
 I update this repository **daily** by adding the solution for the new challenge and updating this README.
 
@@ -25,6 +25,7 @@ I update this repository **daily** by adding the solution for the new challenge 
 | Day 03 | Student Result Analyzer | Analyze multiple student marks, categorize performance levels, apply personalized bonus logic based on name length, and generate a final performance summary. | [challenge3.py](Day%203/challenge3.py) |
 | Day 04 | Student Login Risk Analyzer | Process activity scores, categorize them into risk levels (low, medium, high, critical), apply personalized filtering based on name length, and generate a security report. | [challenge4.py](Day%204/challenge4.py) |
 | Day 05 | Emergency Resource Request Analyzer | Categorize emergency resource requests into demand levels, apply personalized filtering using a Personalized Logic Index (PLI) derived from registration number digits, and generate a dispatch report. | [challenge5.py](Day%205/challenge5.py) |
+| Day 06 | Smart Transaction Risk Detector | A Python program that analyzes daily transactions to detect suspicious spending patterns. It classifies transactions and determines the overall risk level based on frequency, total amount, and high-value activity. | [challenge6.py](Day%206/challenge6.py) |
 ---
 
 # 🧠 Concepts Practiced
@@ -36,6 +37,7 @@ Throughout this challenge, the following **Python concepts** are practiced:
 * Conditional statements
 * Boolean logic
 * List operations
+* List comprehension
 * Looping techniques
 * Data validation
 * Personalized program logic
@@ -62,6 +64,11 @@ Python-Code2Xplore-60-Day-Challenge
 │
 ├── Day-05
 │   └ challenge5.py
+|   └ test-cases5.txt
+|
+├── Day-06
+│   └ challenge6.py
+|   └ test-cases6.txt
 │
 └── README.md
 ```
