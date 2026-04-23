@@ -11,7 +11,7 @@ Each day focuses on **real-world inspired problems**, input validation, logical 
 ## 📊 Progress
 
 **Completed:** 8 / 60 Days
-Note: It's skipped
+Note: 7th day challenge was skipped
 
 I update this repository **daily** by adding the solution for the new challenge and updating this README.
 
