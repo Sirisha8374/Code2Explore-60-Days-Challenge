@@ -10,7 +10,8 @@ Each day focuses on **real-world inspired problems**, input validation, logical 
 
 ## 📊 Progress
 
-**Completed:** 6 / 60 Days
+**Completed:** 8 / 60 Days
+Note: It's skipped
 
 I update this repository **daily** by adding the solution for the new challenge and updating this README.
 
@@ -26,6 +27,7 @@ I update this repository **daily** by adding the solution for the new challenge 
 | Day 04 | Student Login Risk Analyzer | Process activity scores, categorize them into risk levels (low, medium, high, critical), apply personalized filtering based on name length, and generate a security report. | [challenge4.py](Day%204/challenge4.py) |
 | Day 05 | Emergency Resource Request Analyzer | Categorize emergency resource requests into demand levels, apply personalized filtering using a Personalized Logic Index (PLI) derived from registration number digits, and generate a dispatch report. | [challenge5.py](Day%205/challenge5.py) |
 | Day 06 | Smart Transaction Risk Detector | A Python program that analyzes daily transactions to detect suspicious spending patterns. It classifies transactions and determines the overall risk level based on frequency, total amount, and high-value activity. | [challenge6.py](Day%206/challenge6.py) |
+| Day 08 | Multi-Dimensional Academic Intelligence System | A Python-based system that analyzes student performance using multiple factors like marks, attendance, and assignment scores. It classifies students, performs statistical analysis, and generates overall academic insights. | [challenge8.py](Day%208/challenge8.py) |
 ---
 
 # 🧠 Concepts Practiced
@@ -69,7 +71,10 @@ Python-Code2Xplore-60-Day-Challenge
 ├── Day-06
 │   └ challenge6.py
 |   └ test-cases6.txt
-│
+├── Day-08
+│   └ challenge8.py
+|   └ test_cases8.txt
+|
 └── README.md
 ```
 
@@ -228,6 +233,44 @@ Through this challenge I am continuously improving:
 * Final logic:
 
   * Combined all conditions to determine overall risk level
+
+---
+
+🔹 Day 08 – Multi-Dimensional Academic Intelligence System
+
+* Generated student data using random module:
+   * Marks (0–100)
+   * Attendance (0–100)
+   * Assignment scores (0–50)
+* Stored data using:
+   * List of tuples → converted into Pandas DataFrame
+* Applied classification logic:
+   * At Risk → marks < 40 OR attendance < 50
+   * Average → marks between 40–70
+   * Good → marks between 71–90
+   * Top Performer → marks > 90 AND attendance > 80
+* Performed statistical analysis using NumPy:
+   * Mean (calculated manually)
+   * Median
+   * Standard deviation
+   * Correlation between marks and attendance
+* Applied normalization:
+   * Converted marks into range 0–1 using formula
+* Created custom metric:
+   * performance_index = (marks × 0.6 + assignment × 0.4) × log(attendance + 1)
+* Applied pattern detection:
+   * Consistency → based on standard deviation
+   * Attendance risk → number of students with attendance < 50
+   * High achievement → number of top performers
+* Generated final system insight:
+   * Stable Academic System
+   * Moderate Performance
+   * Critical Attention Required
+* Displayed structured output:
+   * DataFrame table
+   * Category-wise classification
+   * Statistical summary
+   * Final conclusion
 
 
 
