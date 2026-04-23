@@ -1,0 +1,62 @@
+Testcase 1
+----------
+
+Enter number of students: 3
+
+------- Student Data -------
+   student_id  marks  ...  performance_index  normalized_marks
+0           1     26  ...          93.833180          0.000000
+1           2     31  ...         129.986798          0.090909
+2           3     81  ...         261.245208          1.000000
+
+[3 rows x 6 columns]
+
+------- Category -------
+Student 1: At Risk
+Student 2: At Risk
+Student 3: Good
+
+------- Statistics -------
+Average Marks: 46.0
+Median Marks: 31.0
+Standard Deviation: 24.8327740429189
+Correlation: 0.6769261626334154
+
+------- Summary -------
+(Mean, std Dev, Max Marks) = (46.0, 24.8327740429189, 81)
+
+------- Final insight -------
+Critical Attention Required
+
+
+
+
+
+
+Testcase 2
+----------
+
+Enter number of students: 2
+
+------- Student Data -------
+   student_id  marks  ...  performance_index  normalized_marks
+0           1      6  ...          79.679796               0.0
+1           2     33  ...         123.294785               1.0
+
+[2 rows x 6 columns]
+
+------- Category -------
+Student 1: At Risk
+Student 2: At Risk
+
+------- Statistics -------
+Average Marks: 19.5
+Median Marks: 19.5
+Standard Deviation: 13.5
+Correlation: 0.9999999999999998
+
+------- Summary -------
+(Mean, std Dev, Max Marks) = (19.5, 13.5, 33)
+
+------- Final insight -------
+Stable Academic System
