@@ -11,6 +11,7 @@ Each day focuses on **real-world inspired problems**, input validation, logical 
 ## 📊 Progress
 
 **Completed:** 8 / 60 Days
+
 Note: 7th day challenge was skipped
 
 I update this repository **daily** by adding the solution for the new challenge and updating this README.
@@ -71,6 +72,7 @@ Python-Code2Xplore-60-Day-Challenge
 ├── Day-06
 │   └ challenge6.py
 |   └ test-cases6.txt
+|
 ├── Day-08
 │   └ challenge8.py
 |   └ test_cases8.txt
