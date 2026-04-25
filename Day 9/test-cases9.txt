@@ -1,0 +1,107 @@
+Testcase 1
+----------
+
+Enter roll number: 5
+
+===== Original Inventory =====
+
+Item  1
+Name:  Laptop
+Price:  50000
+Stock:  10
+Rating:  4.5
+
+Item  2
+Name:  Phone
+Price:  16200.0
+Stock:  35
+Rating:  4.2
+
+===== Shallow Copy =====
+
+Item  1
+Name:  Laptop
+Price:  50000
+Stock:  10
+Rating:  4.5
+
+Item  2
+Name:  Phone
+Price:  16200.0
+Stock:  35
+Rating:  4.2
+
+===== Deep Copy =====
+
+Item  1
+Name:  Laptop
+Price:  50000
+Stock:  10
+Rating:  4.5
+
+Item  2
+Name:  Phone
+Price:  20000
+Stock:  25
+Rating:  4.2
+
+===== Comparison =====
+Shallow Comparison (changed, unchanged):  (0, 2)
+Deep Comparison (changed, unchanged):  (1, 1)
+
+
+
+
+
+Testcase 2
+----------
+
+
+Enter roll number: 4
+
+===== Original Inventory =====
+
+Item  1
+Name:  Laptop
+Price:  40500.0
+Stock:  20
+Rating:  4.5
+
+Item  2
+Name:  Phone
+Price:  20000
+Stock:  25
+Rating:  4.2
+
+===== Shallow Copy =====
+
+Item  1
+Name:  Laptop
+Price:  40500.0
+Stock:  20
+Rating:  4.5
+
+Item  2
+Name:  Phone
+Price:  20000
+Stock:  25
+Rating:  4.2
+
+===== Deep Copy =====
+
+Item  1
+Name:  Laptop
+Price:  50000
+Stock:  10
+Rating:  4.5
+
+Item  2
+Name:  Phone
+Price:  20000
+Stock:  25
+Rating:  4.2
+
+===== Comparison =====
+Shallow Comparison (changed, unchanged):  (0, 2)
+Deep Comparison (changed, unchanged):  (1, 1)
+
