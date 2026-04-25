@@ -10,7 +10,7 @@ Each day focuses on **real-world inspired problems**, input validation, logical 
 
 ## 📊 Progress
 
-**Completed:** 8 / 60 Days
+**Completed:** 9 / 60 Days
 
 Note: 7th day challenge was skipped
 
@@ -29,6 +29,7 @@ I update this repository **daily** by adding the solution for the new challenge 
 | Day 05 | Emergency Resource Request Analyzer | Categorize emergency resource requests into demand levels, apply personalized filtering using a Personalized Logic Index (PLI) derived from registration number digits, and generate a dispatch report. | [challenge5.py](Day%205/challenge5.py) |
 | Day 06 | Smart Transaction Risk Detector | A Python program that analyzes daily transactions to detect suspicious spending patterns. It classifies transactions and determines the overall risk level based on frequency, total amount, and high-value activity. | [challenge6.py](Day%206/challenge6.py) |
 | Day 08 | Multi-Dimensional Academic Intelligence System | A Python-based system that analyzes student performance using multiple factors like marks, attendance, and assignment scores. It classifies students, performs statistical analysis, and generates overall academic insights. | [challenge8.py](Day%208/challenge8.py) |
+| Day 09 | Smart Inventory Mutation Tracker | A Python program that demonstrates how shallow copy and deep copy behave in nested data structures by applying controlled modifications and analyzing their impact on original data. | [challenge9.py](Day%209/challenge9.py) |
 ---
 
 # 🧠 Concepts Practiced
@@ -76,6 +77,10 @@ Python-Code2Xplore-60-Day-Challenge
 ├── Day-08
 │   └ challenge8.py
 |   └ test_cases8.txt
+|
+├── Day-09
+│   └ challenge9.py
+|   └ test-cases9.txt
 |
 └── README.md
 ```
@@ -273,6 +278,37 @@ Through this challenge I am continuously improving:
    * Category-wise classification
    * Statistical summary
    * Final conclusion
+ 
+  ---
+
+  🔹 Day 09 – Smart Inventory Mutation Tracker
+  
+  * Created inventory using nested data structure:
+     * List of dictionaries containing item details
+     * Each item includes price, stock, and supplier rating
+  * Used functions:
+     * reate_inventory() → to initialize inventory data
+    * apply_discount() → to modify selected item
+    * compare_data() → to compare original and modified data
+  * Implemented copy operations:
+    * Shallow copy using .copy()
+    * Deep copy using copy.deepcopy()
+  * Applied mutation logic:
+    * Reduced price by 10%
+    * Increased stock for selected item
+  * Applied personalization rule:
+    * Modified only the item at index = roll_number % length of inventory
+  * Performed comparison:
+    * Checked which items changed and which remained same
+    * Stored result as tuple (changed_items, unchanged_items)
+  * Observed behavior:
+    * Shallow copy affected original data due to shared nested references
+    * Deep copy remained independent and did not affect original data
+  * Displayed structured output:
+    * Original inventory
+    * Shallow copy result
+    * Deep copy result
+    * Comparison summary
 
 
 
