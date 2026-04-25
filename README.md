@@ -10,7 +10,7 @@ Each day focuses on **real-world inspired problems**, input validation, logical 
 
 ## 📊 Progress
 
-**Completed:** 9 / 60 Days
+**Completed:** 10 / 60 Days
 
 Note: 7th day challenge was skipped
 
@@ -30,6 +30,7 @@ I update this repository **daily** by adding the solution for the new challenge 
 | Day 06 | Smart Transaction Risk Detector | A Python program that analyzes daily transactions to detect suspicious spending patterns. It classifies transactions and determines the overall risk level based on frequency, total amount, and high-value activity. | [challenge6.py](Day%206/challenge6.py) |
 | Day 08 | Multi-Dimensional Academic Intelligence System | A Python-based system that analyzes student performance using multiple factors like marks, attendance, and assignment scores. It classifies students, performs statistical analysis, and generates overall academic insights. | [challenge8.py](Day%208/challenge8.py) |
 | Day 09 | Smart Inventory Mutation Tracker | A Python program that demonstrates how shallow copy and deep copy behave in nested data structures by applying controlled modifications and analyzing their impact on original data. | [challenge9.py](Day%209/challenge9.py) |
+| Day 10 | Academic Data Drift & Copy Behavior Analyzer | A Python program that analyzes student data using statistical methods and demonstrates how shallow and deep copy affect data integrity and lead to data drift. | [challenge10.py](Day%2010/challenge10.py) |
 ---
 
 # 🧠 Concepts Practiced
@@ -77,6 +78,10 @@ Python-Code2Xplore-60-Day-Challenge
 ├── Day-08
 │   └ challenge8.py
 |   └ test_cases8.txt
+|
+├── Day-09
+│   └ challenge9.py
+|   └ test-cases9.txt
 |
 ├── Day-09
 │   └ challenge9.py
@@ -243,7 +248,7 @@ Through this challenge I am continuously improving:
 
 ---
 
-🔹 Day 08 – Multi-Dimensional Academic Intelligence System
+### 🔹 Day 08 – Multi-Dimensional Academic Intelligence System
 
 * Generated student data using random module:
    * Marks (0–100)
@@ -281,7 +286,7 @@ Through this challenge I am continuously improving:
  
   ---
 
-  🔹 Day 09 – Smart Inventory Mutation Tracker
+  ### 🔹 Day 09 – Smart Inventory Mutation Tracker
   
   * Created inventory using nested data structure:
      * List of dictionaries containing item details
@@ -309,6 +314,68 @@ Through this challenge I am continuously improving:
     * Shallow copy result
     * Deep copy result
     * Comparison summary
+
+---
+
+### 🔹 Day 10 – Academic Data Drift & Copy Behavior Analyzer
+
+* Generated student data using `random` module:
+
+  * Marks, attendance, and internal scores
+  * Stored as list of dictionaries with nested list structure
+
+* Converted data into Pandas DataFrame for analysis
+
+* Used functions:
+
+  * `generate_data()` → to create student dataset
+  * `mutate_data()` → to apply controlled modifications
+  * `analyze()` → to calculate statistical values
+  * `calculate_drift()` → to measure change in data
+
+* Implemented copy operations:
+
+  * Shallow copy using `.copy()`
+  * Deep copy using `copy.deepcopy()`
+
+* Applied mutation logic:
+
+  * Increased marks using `sqrt(marks)`
+  * Modified inner list (`scores`)
+  * Reduced attendance for selected students
+
+* Applied personalization rule:
+
+  * Modified only indexes where `index % (roll_number % 3) == 0`
+
+* Performed statistical analysis using NumPy:
+
+  * Mean (manually calculated)
+  * Median
+  * Standard deviation
+
+* Calculated data drift:
+
+  * `drift = abs(original_mean - modified_mean)`
+
+* Observed behavior:
+
+  * Shallow copy caused unexpected changes in original data due to shared nested references
+  * Deep copy remained independent and preserved original data
+
+* Applied pattern detection:
+
+  * Drift threshold used to classify system behavior
+  * Detected copy failure when original data changed
+
+* Generated final output:
+
+  * Original DataFrame
+  * Shallow copy result
+  * Deep copy result
+  * Drift values
+  * Summary tuple (mean, drift, std_dev)
+  * Final classification (Stable Data / Minor Drift / Critical Drift / Copy Failure Detected)
 
 
 
